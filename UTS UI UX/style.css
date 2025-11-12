@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    border: 2px solid black; 
+    background-color: white;
+    box-shadow: 4px 4px 0px black; 
+}
+
+h1 {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-top: 0;
+}
+
+form {
+    padding-top: 10px;
+}
+
+.form-group, .form-group-inline {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center; 
+}
+
+.form-group label, .form-group-inline label {
+    display: block;
+    width: 150px; /
+    font-weight: bold;
+    
+}
+
+.form-group:nth-child(4) label:first-child { 
+    font-weight: normal; 
+}
+
+input[type="text"], 
+textarea, 
+select {
+    border: 1px solid black; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"], 
+textarea {
+    flex-grow: 1; 
+}
+
+
+#nama_ruangan {
+    width: 100%;
+}
+#deskripsi_ruangan {
+    width: 100%;
+    resize: none;
+}
+#kategori {
+    width: 150px; 
+}
+#kapasitas {
+    width: 150px; 
+}
+#lokasi_ruangan {
+    width: 250px; 
+}
+
+
+.checkbox-group {
+    display: flex;
+    gap: 20px;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+    width: auto;
+}
+
+
+.button-group {
+    margin-top: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #f0f0f0; 
+}
